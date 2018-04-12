@@ -9,8 +9,11 @@ public class HelloWorld {
 		
 		for(int i=0; i<anz.length; i++) {
 			System.out.println("Zahl: "+anz[i]);
+			sum=sum+anz[i];
 
 		}
+		System.out.println("Summe: "+sum);
 	}
+	
 
 }
